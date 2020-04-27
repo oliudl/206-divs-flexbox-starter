@@ -118,16 +118,30 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
+  line-height: 1.4em;
+  font-size: 1em;
   background-color: #f16059;
   height: 300px;
   display:flex;
-  width: 30%;
+  width: 33%;
   justify-content: center;
   align-items: center;
+  padding: 2%;
 }
 
+.div-1{
+	background-color: mediumseagreen;
+}
+
+.div-2{
+	background-color: mediumslateblue;
+	border-left: black dashed .03em;
+	border-right: black dashed .03em;
+}
+
+.div-3{
+	background-color:mediumaquamarine;
+}
 
 
 
